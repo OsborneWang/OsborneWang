@@ -51,5 +51,4 @@
 
 ## 📫 联系
 
-- Issues 优先：仓库里开 issue 最快
-- 邮箱：（待填）
+osborne.wangxubo@gmail.com
