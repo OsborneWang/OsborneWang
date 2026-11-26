@@ -2,7 +2,7 @@
 
 终端重度使用者。用 tmux + Neovim 把日常操作磨到顺手，用 Go 写解决自己问题的小工具，最近在把 AI Agent 塞进真实工作流。
 
-> 先给自己用，再开源。能用单文件解决就不引依赖。
+> 先给自己用，再开源。能用单文件解决就不引依赖。配置也是：用得上的才装，用不上的删掉。
 
 ---
 
@@ -10,9 +10,9 @@
 
 | 仓库 | 说明 |
 |---|---|
+| [neovim_config](https://github.com/OsborneWang/neovim_config) | 手写的极简 Neovim 配置：左侧文件树 + 全目录搜索 + 语法高亮，12 个插件、启动约 22ms，不套 LazyVim 全家桶 |
 | [tmux-config](https://github.com/OsborneWang/tmux-config) | `macOS → SSH → Ubuntu` 场景的 tmux 配置：vim 风格切窗格、主窗格布局、扩展键、剪贴板图片路径直插 |
-| [self_config](https://github.com/OsborneWang/self_config) | 跨服务器同步的终端配置（tmux / yazi / Neovim），基于 OSC 52 打通 `kitty/ghostty → SSH → tmux → 远端应用` 的剪贴板链路 |
-| [neovim-self](https://github.com/OsborneWang/neovim-self) | 自己整理的 Neovim 配置 |
+| [self_config](https://github.com/OsborneWang/self_config) | 跨服务器同步的终端配置合集（tmux / yazi / Neovim），基于 OSC 52 打通 `kitty/ghostty → SSH → tmux → 远端应用` 的剪贴板链路 |
 
 ## 🛠 命令行工具
 
@@ -43,6 +43,7 @@
 
 ## 📌 最近在做
 
+- 把 Neovim 从 LazyVim 全家桶换回手写配置：只留文件树、全目录搜索、语法高亮等高频功能，启动压到 22ms
 - 把 journal 的采集—结构—派生三层拆分跑通，AI 只负责叙述，不碰原始记录
 - 统一 tmux / Neovim / yazi 的跨机同步，减少换机器时的重建成本
 - 探索 Agent 在终端里的最小可用形态：无状态调用 > 长驻会话
